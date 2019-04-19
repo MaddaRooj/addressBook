@@ -9,10 +9,7 @@ document.querySelector("#saveEntry").addEventListener("click", event => {
     const personName = document.querySelector("#fullName").value;
     const personAddress = document.querySelector("#address").value;
 
-    // Once you have collected all the values, update the DOM
-    // with some HTML
     if (personName !== '' && personAddress !== '') {
-
         container.innerHTML += 
             `<section id='htmlContent'>
                 <h2>Name: ${personName}</h2>
