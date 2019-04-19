@@ -1,0 +1,10 @@
+h1 {
+    color: steelblue;
+    background: black;
+}
+
+#htmlContent {
+    border: 2px solid lavender;
+    margin: 10px 0px;
+    display: block;
+}
